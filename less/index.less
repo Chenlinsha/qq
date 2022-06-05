@@ -1,0 +1,217 @@
+@color: #22d59c;
+.download {
+  width: 100%;
+  height: 16.6667vw;
+  position: relative;
+  background-color: rgb(250, 250, 250);
+  img {
+    position: absolute;
+    width: 6.6667vw;
+    height: 6.6667vw;
+    margin-left: 4vw;
+    // margin-top: 3vw;
+  }
+  h2 {
+    font-size: 4.6667vw;
+    position: absolute;
+    top: 1.3333vw;
+    left: 13.3333vw;
+  }
+  p {
+    position: absolute;
+    top: 7.6vw;
+    left: 13.3333vw;
+    font-size: 3.3333vw;
+    font-weight: 300;
+    color: gray;
+  }
+  .to-download {
+    width: 22.4vw;
+    height: 6.4vw;
+    padding: 0, 4.5333vw;
+    font-size: 3.5vw;
+    font-weight: 300;
+    right: 4.6667vw;
+    position: absolute;
+    top: 4vw;
+    color: gray;
+    border-radius: 2.6667vw;
+    background-color: rgb(250, 250, 250);
+    border: solid 1px #ccc;
+  }
+}
+nav {
+  height: 9.3333vw;
+  width: 100%;
+  background-color: rgb(250, 250, 250);
+  a {
+    display: inline-block;
+    height: 100%;
+    width: 48%;
+    font-size: 4vw;
+    font-weight: 400;
+    text-align: center;
+    color: gray;
+  }
+  .current {
+    color: @color;
+  }
+  .current::after {
+    content: "";
+    width: 1.25rem;
+    color: @color;
+    height: 3px;
+    left: 40%;
+  }
+}
+.contianer {
+  background-color: #fafafa;
+  .search {
+    border-radius: 3vw;
+    width: 90.8667vw;
+    height: 8vw;
+    margin: auto;
+    background-color: #fff;
+    input {
+      margin-top: 1.3333vw;
+      font-size: 4vw;
+      text-align: center;
+      width: 90.8667vw;
+    }
+  }
+}
+footer {
+  background-color: #fafafa;
+  .logo {
+    margin: auto;
+    width: 26.6667vw;
+    img {
+      height: 6.6667vw;
+
+      margin-bottom: 3.99999vw;
+    }
+  }
+  p {
+    margin: auto;
+    font-size: 3.2vw;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1.3333vw;
+  }
+}
+.songlist {
+  margin: 4.6667vw;
+
+  .official {
+    font-size: 5vw;
+    font-weight: 600;
+  }
+  .official-ul,
+  .master-ul {
+    display: flex;
+    overflow: scroll;
+    margin-bottom: 4vw;
+    height: 43.4667vw;
+    //   overflow-y: hidden;
+    //   overflow-x: hidden;
+    .list-box {
+      margin-left: 2.4vw;
+      margin-top: 4vw;
+      width: 29.0667vw;
+      height: 39.4667vw;
+      
+      .list-media {
+        position: relative;
+        width: 100%;
+        height: 32.7867vw;
+        // padding-bottom: '<ASPECT RATIO HERE>';
+        img {
+          width: 100%;
+          height: 32.7867vw;
+          border-radius: 2.6667vw;
+        }
+        .count {
+          color: #fff;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          z-index: 5;
+          padding: 0 7px;
+          border-radius: 9px;
+          background: rgba(0, 0, 0, 0.4);
+        
+      }}
+      h3 {
+        text-align: center;
+        font-size: 3.3333vw;
+        margin: 1.3333vw;
+        font-weight: 300;
+      }
+    }
+  }
+}
+.special-ul {
+  display: flex;
+  overflow: scroll;
+  li {
+    height: 40.5667vw;
+    width: 62.4vw;
+    margin: 1.3333vw;
+    margin-right: 0;
+    border-radius: 1.3333vw;
+    .list-media {
+      position: relative;
+      .buttom {
+        height: 32.6667vw;
+        width: 60.2667vw;
+        border-radius: 2.6667vw;
+      }
+      .describe {
+        height: 9.0667vw;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        .q-icon {
+          margin-left: 1.3333vw;
+          margin-bottom: 3.3333vw;
+          width: 9.0667vw;
+          height: 9.0667vw;
+          border-radius: 50%;
+        }
+        span {
+          font-size: 6.4vw;
+          font-weight: 500;
+          color: #fff;
+        }
+      }
+    }
+    h3 {
+      text-align: left;
+      font-size: 3.3333vw;
+      margin: 1.3333vw;
+      font-weight: 300;
+    }
+  }
+}
+.loadingpage{
+  height: 100vh;
+  width: 100vw;
+.loading {
+  width: 30px;
+  height: 30px;
+  border: 2px solid @color;
+  border-top-color: transparent;
+  border-radius: 100%;
+
+  animation: circle infinite 0.75s linear;
+}
+}
+// 转转转动画
+@keyframes circle {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

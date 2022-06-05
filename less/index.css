@@ -1,0 +1,212 @@
+.download {
+  width: 100%;
+  height: 16.6667vw;
+  position: relative;
+  background-color: #fafafa;
+}
+.download img {
+  position: absolute;
+  width: 6.6667vw;
+  height: 6.6667vw;
+  margin-left: 4vw;
+}
+.download h2 {
+  font-size: 4.6667vw;
+  position: absolute;
+  top: 1.3333vw;
+  left: 13.3333vw;
+}
+.download p {
+  position: absolute;
+  top: 7.6vw;
+  left: 13.3333vw;
+  font-size: 3.3333vw;
+  font-weight: 300;
+  color: gray;
+}
+.download .to-download {
+  width: 22.4vw;
+  height: 6.4vw;
+  padding: 0, 4.5333vw;
+  font-size: 3.5vw;
+  font-weight: 300;
+  right: 4.6667vw;
+  position: absolute;
+  top: 4vw;
+  color: gray;
+  border-radius: 2.6667vw;
+  background-color: #fafafa;
+  border: solid 1px #ccc;
+}
+nav {
+  height: 9.3333vw;
+  width: 100%;
+  background-color: #fafafa;
+}
+nav a {
+  display: inline-block;
+  height: 100%;
+  width: 48%;
+  font-size: 4vw;
+  font-weight: 400;
+  text-align: center;
+  color: gray;
+}
+nav .current {
+  color: #22d59c;
+}
+nav .current::after {
+  content: "";
+  width: 1.25rem;
+  color: #22d59c;
+  height: 3px;
+  left: 40%;
+}
+.contianer {
+  background-color: #fafafa;
+}
+.contianer .search {
+  border-radius: 3vw;
+  width: 90.8667vw;
+  height: 8vw;
+  margin: auto;
+  background-color: #fff;
+}
+.contianer .search input {
+  margin-top: 1.3333vw;
+  font-size: 4vw;
+  text-align: center;
+  width: 90.8667vw;
+}
+footer {
+  background-color: #fafafa;
+}
+footer .logo {
+  margin: auto;
+  width: 26.6667vw;
+}
+footer .logo img {
+  height: 6.6667vw;
+  margin-bottom: 3.99999vw;
+}
+footer p {
+  margin: auto;
+  font-size: 3.2vw;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 1.3333vw;
+}
+.songlist {
+  margin: 4.6667vw;
+}
+.songlist .official {
+  font-size: 5vw;
+  font-weight: 600;
+}
+.songlist .official-ul,
+.songlist .master-ul {
+  display: flex;
+  overflow: scroll;
+  margin-bottom: 4vw;
+  height: 43.4667vw;
+}
+.songlist .official-ul .list-box,
+.songlist .master-ul .list-box {
+  margin-left: 2.4vw;
+  margin-top: 4vw;
+  width: 29.0667vw;
+  height: 39.4667vw;
+}
+.songlist .official-ul .list-box .list-media,
+.songlist .master-ul .list-box .list-media {
+  position: relative;
+  width: 100%;
+  height: 32.7867vw;
+}
+.songlist .official-ul .list-box .list-media img,
+.songlist .master-ul .list-box .list-media img {
+  width: 100%;
+  height: 32.7867vw;
+  border-radius: 2.6667vw;
+}
+.songlist .official-ul .list-box .list-media .count,
+.songlist .master-ul .list-box .list-media .count {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  padding: 0 7px;
+  border-radius: 9px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.songlist .official-ul .list-box h3,
+.songlist .master-ul .list-box h3 {
+  text-align: center;
+  font-size: 3.3333vw;
+  margin: 1.3333vw;
+  font-weight: 300;
+}
+.special-ul {
+  display: flex;
+  overflow: scroll;
+}
+.special-ul li {
+  height: 40.5667vw;
+  width: 62.4vw;
+  margin: 1.3333vw;
+  margin-right: 0;
+  border-radius: 1.3333vw;
+}
+.special-ul li .list-media {
+  position: relative;
+}
+.special-ul li .list-media .buttom {
+  height: 32.6667vw;
+  width: 60.2667vw;
+  border-radius: 2.6667vw;
+}
+.special-ul li .list-media .describe {
+  height: 9.0667vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.special-ul li .list-media .describe .q-icon {
+  margin-left: 1.3333vw;
+  margin-bottom: 3.3333vw;
+  width: 9.0667vw;
+  height: 9.0667vw;
+  border-radius: 50%;
+}
+.special-ul li .list-media .describe span {
+  font-size: 6.4vw;
+  font-weight: 500;
+  color: #fff;
+}
+.special-ul li h3 {
+  text-align: left;
+  font-size: 3.3333vw;
+  margin: 1.3333vw;
+  font-weight: 300;
+}
+.loadingpage {
+  height: 100vh;
+  width: 100vw;
+}
+.loadingpage .loading {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #22d59c;
+  border-top-color: transparent;
+  border-radius: 100%;
+  animation: circle infinite 0.75s linear;
+}
+@keyframes circle {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

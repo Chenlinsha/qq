@@ -1,0 +1,62 @@
+body {
+  background-color: #f9f9f9;
+}
+.contianer .box {
+  height: 325.3333vw;
+}
+.contianer .box ul {
+  position: relative;
+  height: 100%;
+  border-radius: 20px;
+  margin: 4vw;
+  background-color: #fff;
+}
+.contianer .box ul .item {
+  position: absolute;
+  display: flex;
+  margin-top: 1.3333vw;
+  height: 28.5333vw;
+  width: 91.4667vw;
+}
+.contianer .box ul .item .content {
+  height: 23.1333vw;
+  width: 62.9333vw;
+  padding: 3.3333vw;
+}
+.contianer .box ul .item .content h2 {
+  font-size: 4.6667vw;
+  font-weight: bolder;
+}
+.contianer .box ul .item .content ol li strong {
+  font-size: 3vw;
+}
+.contianer .box ul .item .content ol li span {
+  font-size: 3vw;
+  margin-right: 2.6667vw;
+}
+.contianer .box ul .item .media {
+  height: 28.5333vw;
+  width: 28.5333vw;
+  position: relative;
+}
+.contianer .box ul .item .media img {
+  border-radius: 2.6667vw;
+  width: 100%;
+  height: 100%;
+}
+.contianer .box ul .item .media .update {
+  color: #fff;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1.3333vw;
+}
+.contianer .box ul .item .media .count {
+  border-radius: 2.6667vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  background: rgba(0, 0, 0.4);
+}

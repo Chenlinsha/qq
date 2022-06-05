@@ -1,0 +1,75 @@
+.head {
+  display: flex;
+}
+.head .search {
+  border-radius: 3vw;
+  width: 80vw;
+  height: 8vw;
+  margin-left: 4vw;
+  background-color: #fff;
+}
+.head .search input {
+  margin-top: 1.3333vw;
+  font-size: 4vw;
+  text-align: center;
+  width: 10.6667vw;
+}
+.head span {
+  width: 16vw;
+  height: 8vw;
+  padding-top: 2vw ;
+  padding-left: 4.2667vw;
+  font-size: 3.5vw;
+  font-weight: bolder;
+}
+.music-list {
+  background-color: #f9f9f9;
+}
+.music-list .list-box {
+  width: 91.4667vw;
+  height: 11.2vw;
+  margin: 32px;
+}
+.music-list .list-box h3 {
+  font-size: 4.6667vw;
+}
+.music-list .list-box span {
+  width: 12.8vw;
+  height: 4.1333vw;
+  margin-top: 4vw;
+  font-size: 3vw;
+  font-weight: 300;
+}
+.research {
+  margin: 4.6667vw;
+}
+.research h2 {
+  font-size: 4vw;
+  font-weight: 600;
+}
+.research .delete {
+  position: absolute;
+  top: 40vw;
+  right: 10.6667vw;
+  height: 10.6667vw;
+  width: 10.6667vw;
+}
+.research .history span {
+  margin: 1.6vw;
+  border-radius: 1.6vw;
+  display: inline-block;
+  background-color: #fff;
+  height: 6.4vw;
+  font-size: 3.2vw;
+}
+.research .hot span {
+  margin: 1.6vw;
+  border-radius: 1.6vw;
+  display: inline-block;
+  background-color: #fff;
+  height: 6.4vw;
+  font-size: 3.2vw;
+}
+body {
+  background-color: #f9f9f9;
+}
